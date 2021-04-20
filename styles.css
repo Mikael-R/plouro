@@ -70,6 +70,11 @@ footer {
   grid-auto-flow: column;
 }
 
+.custom-card-img {
+  width: 144px;
+  height: 144px;
+}
+
 .custom-card-title {
   margin-top: 12px;
 }
@@ -96,4 +101,16 @@ footer {
   -moz-transition: all 0.6s ease;
   -o-transition: all 0.6s ease;
   -ms-transition: all 0.6s ease;
+}
+
+@media screen and (max-width: 360px) {
+  .custom-card-img {
+    width: 112px;
+    height: 112px;
+  }
+
+  #scroll-up-btn {
+    right: 25px;
+    font-size: 45px;
+  }
 }
