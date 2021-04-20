@@ -8,7 +8,7 @@
 
     <link
       rel="shortcut  icon"
-      href="./assets/favicon.ico"
+      href="assets/favicon.ico"
       type="image/x-icon"
     />
     <link
@@ -49,129 +49,89 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img
-            class="bd-placeholder-img"
-            width="100%"
-            height="100%"
-            src="./assets/banner.jpeg"
-            aria-hidden="true"
-            preserveaspectratio="xMidYMid slice"
-            focusable="false"
-          />
-          <rect width="100%" height="100%" fill="#777"></rect>
-
-          <div class="container">
-            <div class="carousel-caption text-start">
-              <h1>Pedro Louro</h1>
-              <p>
-                Conheça o nosso servidor do Discord, temos sorteios e skins de
-                graça.
-              </p>
-              <p>
-                <a
-                  class="btn btn-lg btn-primary"
-                  target="_blank"
-                  href="https://discord.gg/JeYvZM3u"
-                  >Discord</a
-                >
-              </p>
-            </div>
-          </div>
+          <img class="d-block w-100" src="assets/banner.jpeg" alt="First slide">
         </div>
         <div class="carousel-item">
-          <img
-            class="bd-placeholder-img"
-            width="100%"
-            height="20%"
-            src="./assets/banner.jpeg"
-            aria-hidden="true"
-            preserveaspectratio="xMidYMid slice"
-            focusable="false"
-          />
-          <rect width="100%" height="100%" fill="#777"></rect>
-
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Pedro Louro</h1>
-              <p>
-                O canal Pedro Louro é sobre tudo, porém é mais focado em csgo e
-                sites de apostas.
-              </p>
-              <p>
-                <a
-                  class="btn btn-lg btn-primary"
-                  target="_blank"
-                  href="https://www.youtube.com/c/PedroLouro?sub_confirmation=1"
-                  >Youtube</a
-                >
-              </p>
-            </div>
-          </div>
+          <img class="d-block w-100" src="assets/banner.jpeg" alt="Second slide">
         </div>
         <div class="carousel-item">
-          <img
-            class="bd-placeholder-img"
-            width="100%"
-            height="100%"
-            src="./assets/banner.jpeg"
-            aria-hidden="true"
-            preserveaspectratio="xMidYMid slice"
-            focusable="false"
-          />
-          <rect width="100%" height="100%" fill="#777"></rect>
-
-          <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>Pedro Louro</h1>
-              <p>
-                Visite o instagram do nosso canal para ficar atualizado sempre.
-              </p>
-              <p>
-                <a
-                  class="btn btn-lg btn-primary"
-                  target="_blank"
-                  href="https://www.instagram.com/canalpedrolouro/"
-                  >Instagram</a
-                >
-              </p>
-            </div>
-          </div>
+          <img class="d-block w-100" src="assets/banner.jpeg" alt="Third slide">
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#myCarousel"
-        data-bs-slide="prev"
-      >
+      <a class="carousel-control-prev" href="#plouro" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#myCarousel"
-        data-bs-slide="next"
-      >
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#plouro" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+        <span class="sr-only">Próximo</span>
+      </a>
     </div>
 
-    <main class="container markets">
+    <main class="container-fluid">
       <div class="row">
-        <div class="col-lg-4 market">
+        <div class="col-lg-4 custom-card">
+          <img src="assets/logos/discord.png" width="144" height="144" alt="Logo Discord">
+
+          <p class="custom-card-description">
+            Participe do nosso servidor no Discord, há sempre sorteios de skins e códigos para ganhar pontos grátis em sites.
+          </p>
+
+          <a
+            target="_blank"
+            class="btn btn-lg btn-primary"
+            href="https://discord.gg/JeYvZM3u"
+          >
+            Participe
+          </a>
+        </div>
+
+        <div class="col-lg-4 custom-card">
+          <img src="assets/logos/youtube.png" width="144" height="144" alt="Logo You">
+
+          <p class="custom-card-description">
+            Inscreva-se no meu canal Pedro Louro, conteúdo de CS:GO, skins e sites de apostas.
+          </p>
+
+          <a
+            target="_blank"
+            class="btn btn-lg btn-primary"
+            href="https://csgopolygon.com/"
+          >
+            Inscreva-se
+          </a>
+        </div>
+
+        <div class="col-lg-4 custom-card">
+          <img src="assets/logos/instagram.png" width="144" height="144" alt="Logo Instagram">
+
+          <p class="custom-card-description">
+            Siga-me no instagram do nosso canal para ficar atualizado sempre.
+          </p>
+
+          <a
+            target="_blank"
+            class="btn btn-lg btn-primary"
+            href="https://csgopolygon.com/"
+          >
+            Siga-me
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 custom-card">
           <img
             class="bd-placeholder-img rounded-circle"
             width="140"
             height="140"
-            src="./assets/logos/polygon.jpeg"
+            src="assets/logos/polygon.jpeg"
             alt="Logo CS:GO Polygon"
           />
 
-          <h2 class="market-title">CS:GO POLYGON</h2>
+          <h2 class="custom-card-title">CS:GO POLYGON</h2>
 
-          <p class="market-description">
+          <p class="custom-card-description">
             O CS:GO Polygon é um site que te oferece 1.000 pontos ($1) grátis
             caso tenha as exigências e use o cupom <b>PLOURO</b>.<br />
             Com esses pontos você pode apostar e retirar skins totalmente de
@@ -187,18 +147,18 @@
           </a>
         </div>
 
-        <div class="col-lg-4 market">
+        <div class="col-lg-4 custom-card">
           <img
             class="bd-placeholder-img rounded-circle"
             width="140"
             height="140"
-            src="./assets/logos/empire.jpeg"
+            src="assets/logos/empire.jpeg"
             alt="Logo CS:GO Empire"
           />
 
-          <h2 class="market-title">CS:GO EMPIRE</h2>
+          <h2 class="custom-card-title">CS:GO EMPIRE</h2>
 
-          <p class="market-description">
+          <p class="custom-card-description">
             Site de roleta/apostas muito confiável e famoso! Use o código
             <b>PLOURO</b> para começar com saldo de graça!
           </p>
@@ -211,18 +171,18 @@
           >
         </div>
 
-        <div class="col-lg-4 market">
+        <div class="col-lg-4 custom-card">
           <img
             class="bd-placeholder-img rounded-circle"
             width="140"
             height="140"
-            src="./assets/logos/getto.jpeg"
+            src="assets/logos/getto.jpeg"
             alt="Logo CS:GO Getto"
           />
 
-          <h2 class="market-title">CS:GO GETTO</h2>
+          <h2 class="custom-card-title">CS:GO GETTO</h2>
 
-          <p class="market-description">
+          <p class="custom-card-description">
             Site onde você não precisa ter nível na steam para retirar skins,
             apenas precisa entrar, e abrir caixas gratis diárias totalmente de
             graça!!
@@ -236,18 +196,18 @@
           >
         </div>
 
-        <div class="col-lg-4 market">
+        <div class="col-lg-4 custom-card">
           <img
             class="bd-placeholder-img rounded-circle"
             width="140"
             height="140"
-            src="./assets/logos/crush.png"
+            src="assets/logos/crush.png"
             alt="Logo CS:GO Crush"
           />
 
-          <h2 class="market-title">CS:GO Crush</h2>
+          <h2 class="custom-card-title">CS:GO Crush</h2>
 
-          <p class="market-description">
+          <p class="custom-card-description">
             Site onde você não precisa ter nível na steam para retirar skins,
             apenas precisa entrar, usar o cupom
             <b>PLOURO</b> que ja vai ganhar 100 pontos totalmente de graça!!
@@ -261,18 +221,18 @@
           >
         </div>
 
-        <div class="col-lg-4 market">
+        <div class="col-lg-4 custom-card">
           <img
             class="bd-placeholder-img rounded-circle"
             width="140"
             height="140"
-            src="./assets/logos/keydrop.jpeg"
+            src="assets/logos/keydrop.jpeg"
             alt="Logo KeyDrop"
           />
 
-          <h2 class="market-title">KeyDrop</h2>
+          <h2 class="custom-card-title">KeyDrop</h2>
 
-          <p class="market-description">
+          <p class="custom-card-description">
             Site de abrir caixas, te dará $0,50 logo quando você entrar e usar o
             código <b>PLOURO</b>, além de um bônus de depósito de 5%.
           </p>
@@ -285,18 +245,18 @@
           >
         </div>
 
-        <div class="col-lg-4 market">
+        <div class="col-lg-4 custom-card">
           <img
             class="bd-placeholder-img rounded-circle"
             width="140"
             height="140"
-            src="./assets/logos/fly.jpeg"
+            src="assets/logos/fly.jpeg"
             alt="Logo CS:GO Fly"
           />
 
-          <h2 class="market-title">CS:GO Fly</h2>
+          <h2 class="custom-card-title">CS:GO Fly</h2>
 
-          <p class="market-description">
+          <p class="custom-card-description">
             Site de roleta e apostas, você ganhará um saldo quando usar o código
             promocional <b>PLOURO</b>. Divirta-se!
           </p>
@@ -309,18 +269,18 @@
           >
         </div>
 
-        <div class="col-lg-4 market">
+        <div class="col-lg-4 custom-card">
           <img
             class="bd-placeholder-img rounded-circle"
             width="140"
             height="140"
-            src="./assets/logos/csgo500.png"
+            src="assets/logos/csgo500.png"
             alt="Logo CS:GO 500"
           />
 
-          <h2 class="market-title">CS:GO 500</h2>
+          <h2 class="custom-card-title">CS:GO 500</h2>
 
-          <p class="market-description">
+          <p class="custom-card-description">
             Site que se você com o link abaixo você começará ganhando 500 pontos
             para apostar e retirar skins totalmente gratis!
           </p>
@@ -333,18 +293,18 @@
           >
         </div>
 
-        <div class="col-lg-4 market">
+        <div class="col-lg-4 custom-card">
           <img
             class="bd-placeholder-img rounded-circle"
             width="140"
             height="140"
-            src="./assets/logos/wtf.png"
+            src="assets/logos/wtf.png"
             alt="Logo WTF"
           />
 
-          <h2 class="market-title">WTF SKINS</h2>
+          <h2 class="custom-card-title">WTF SKINS</h2>
 
-          <p class="market-description">
+          <p class="custom-card-description">
             Site bem antigo que te dá skins totalmente de graça, basta acessar e
             colocar o código <b>pedro1405</b> que você vai ganhar $0.25 cents,
             que é R$1.40 só por entrar no site!
